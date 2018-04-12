@@ -1,5 +1,5 @@
 <?php 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use Vinicinho052\PostAndGetDataReceipt\Receipt;
 

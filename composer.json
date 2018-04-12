@@ -1,0 +1,23 @@
+{
+	"name": "vinicinho052/postandgetdatareceipt",
+	"description": "Receber nomes derivados de Post ou Get e devolver os dados.",
+	"keywords": ["POST","GET","dados"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Vinícius Moura",
+			"role": "Estagiário de TI"
+		}
+	],
+	"support": {
+		"email": "viniciusmouraesilva2204@gmail.com"
+	},
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Vinicinho052\\PostAndGetDataReceipt\\": "src/"
+		}
+	}
+}

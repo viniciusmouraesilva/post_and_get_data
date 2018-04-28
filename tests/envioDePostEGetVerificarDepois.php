@@ -4,12 +4,11 @@ require '../vendor/autoload.php';
 use Vinicinho052\PostAndGetDataReceipt\Receipt;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-	#Nome dos campos do formulário para recuperar os dados.
-        #se você não passar nenhum campo no construtor pode. 
+	#se você não passar nenhum campo no construtor de ínicio. 
 	$receiptDatas = new Receipt();
-	#se fazer depois com:
-	#$receiptDatas->setDataAndVerify('nome|mensagem');
+	#setar os valores mas não verificar.
 	$receiptDatas->setData('nome|mensagem');
+	#verificar valores quando quiser.
 	$receiptDatas->verificarPostOuGet();
 	print_r($receiptDatas->getData());
 }

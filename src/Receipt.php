@@ -20,6 +20,7 @@ class Receipt
 			$array = explode('|', $this->dataNames);
 			$total_enviado = count($array);
 			$i = 0;
+			
 			while ($i < $total_enviado) {
 				#Utilizando operador null colesce para POST ou GET
 				$this->dados["{$array[$i]}"] = $_POST["{$array[$i]}"] ?? $_GET["{$array[$i]}"] ?? '';

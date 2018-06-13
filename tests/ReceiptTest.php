@@ -24,7 +24,3 @@ class ReceiptTest extends TestCase
 		$this->assertAttributeEquals("arroz|feijao", "dataNames", $receipt);
 	}
 }
-
-#$receiptTest = new ReceiptTest();
-#$receiptTest->testSetNullConstrutor();
-#$receiptTest->setDataNames();

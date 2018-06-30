@@ -12,8 +12,8 @@ class Request
 	#set request methods e já faz a verificação
 	public function setRequestNamesAndVerify($requestNames = '')
 	{
-        $this->requestMethodsNames = $requestNames;
-        $this->verifyPostOrGet();
+        	$this->requestMethodsNames = $requestNames;
+        	$this->verifyPostOrGet();
 	}
 
 	public function verifyPostOrGet() 
@@ -38,7 +38,7 @@ class Request
 	
 	public function setRequestNames($requestNames = '')
 	{
-        $this->requestMethodsNames = $requestNames;
+        	$this->requestMethodsNames = $requestNames;
 	}
 	
 	#Devolver os dados de Post ou Get

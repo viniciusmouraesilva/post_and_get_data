@@ -1,5 +1,2 @@
 /vendor/
-/coverage/
 phpunit.xml
-/config/
-Capfile

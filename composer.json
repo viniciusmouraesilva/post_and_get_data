@@ -1,5 +1,5 @@
 {
-	"name": "vinicinho052/postandgetdatareceipt",
+	"name": "vinicinho052/postandgetdatarequest",
 	"description": "Receber nomes derivados de Post ou Get e devolver os dados.",
 	"keywords": ["POST","GET","dados"],
 	"license": "MIT",
@@ -17,7 +17,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Vinicinho052\\PostAndGetDataReceipt\\": "src/"
+			"Vinicinho052\\PostAndGetData\\": "src/"
 		}
 	},
 	"require-dev": {

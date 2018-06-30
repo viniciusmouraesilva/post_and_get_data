@@ -15,6 +15,6 @@ class RequestTest extends TestCase
 	{
 		$receipt = new Request;
 		$receipt->setRequestNames('arroz|feijao');
-		$this->assertAttributeEquals("arroz|feijao", "requestMethodsValues", $receipt);
+		$this->assertAttributeEquals("arroz|feijao", "requestMethodsNames", $receipt);
 	}
 }

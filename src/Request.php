@@ -21,9 +21,9 @@ class Request
 		if (strstr($this->requestMethodsNames, '|')) {
 			$requestNames = explode('|', $this->requestMethodsNames);
 			$this->setRequestValues($requestNames);
-		} else {
-			return;
-		}
+		} 
+		
+		return;
 	}
 
 	private function setRequestValues($requestNames) 
